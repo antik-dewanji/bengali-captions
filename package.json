@@ -1,0 +1,42 @@
+{
+  "name": "bengali-transcription",
+  "version": "1.0.0",
+  "description": "Real Bengali Transcription Platform with OpenAI Whisper",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "netlify dev",
+    "deploy": "netlify deploy --prod"
+  },
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0"
+  },
+  "keywords": [
+    "bengali",
+    "transcription", 
+    "whisper",
+    "openai",
+    "speech-to-text",
+    "real-time",
+    "audio",
+    "caption",
+    "translation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/bengali-transcription.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/bengali-transcription/issues"
+  },
+  "homepage": "https://github.com/yourusername/bengali-transcription#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
